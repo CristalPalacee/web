@@ -55,16 +55,24 @@ margin-left: 10px;
     }
   }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 600px) {
+  *{
+    padding: 0;
+    margin: 0;
+  }
     body {
-
+      background-color: black;
+      padding: 0;
+      margin: 0;
+        margin-bottom: 20rem;
         font-family: 'Righteous', sans-serif;
         background-image: url(./gambar/ganbar.png);
         // background-position:  right;
         background-repeat: no-repeat;
         position: relative;
         bottom: 5x;
-        background-size: 58vmax;
+        background-size: 55vmax;
+        background-position-x: -120px;
         // height: 100vmax;
     }
     #navbarNav{
@@ -92,7 +100,7 @@ margin-left: 10px;
                 
             }
             h2 {
-                margin-top: 6rem;
+                margin-top: 7rem;
                 padding-left: 5rem;
                 font-weight: 700;
                 text-align: center;
@@ -100,6 +108,18 @@ margin-left: 10px;
                 line-height: 1;
                 font-family: 'EB Garamond', serif;
             }
+          }
+
+          .costum {
+            background-image: url(./gambar/gambar7.png);
+          background-repeat: no-repeat;
+          background-position-x: -20px;
+          background-position-y: 30px;
+          background-size: auto;
+          height: 35rem;
+          }
+          .logo {
+            height: 92pt;
           }
       
 }
