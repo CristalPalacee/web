@@ -2,10 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Righteous&display=swap");
 body {
   font-family: "Righteous", sans-serif;
-  background-image: url(./gambar/Group4.png);
-  background-position: top right;
+  background-image: url(./gambar/Group3.png);
+  background-color: black;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 90vmax;
+  background-position-x: right;
+}
+
+.font {
+  font-size: 50px;
+  padding-left: 20px;
 }
 
 .custom .navbar-nav {
@@ -32,6 +38,10 @@ body {
   font-size: 80px;
   font-weight: 900;
   font-family: "EB Garamond", serif;
+}
+
+#project {
+  background-color: #f3f4f5;
 }
 
 @media screen and (max-width: 600px) {
@@ -79,11 +89,29 @@ body {
     background-image: url(./gambar/gambar7.png);
     background-repeat: no-repeat;
     background-position-x: -20px;
-    background-position-y: 30px;
-    background-size: auto;
-    height: 35rem;
+    background-position-y: 10px;
+    background-size: cover;
+    height: 30rem;
   }
   .logo {
-    height: 92pt;
+    height: 80pt;
+    margin-bottom: 30pt;
+  }
+  .font {
+    font-size: 20px;
+    padding-left: 25px;
+  }
+  .position {
+    margin-top: 3rem;
+  }
+  svg {
+    padding: 0;
+    position: relative;
+    top: -87px;
+  }
+  #project {
+    position: relative;
+    background-color: #f3f4f5;
+    top: -88px;
   }
 }/*# sourceMappingURL=main.css.map */
