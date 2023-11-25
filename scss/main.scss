@@ -10,11 +10,12 @@ $textColor: black;
 body {
 
     font-family: 'Righteous', sans-serif;
-    background-image: url(./gambar/Group3.png);
+    background-image: url(./gambar/backround.1.png);
     background-color: black;
     background-repeat: no-repeat;
-    background-size: 90vmax;
-    background-position-x: right;
+    background-size: 120vmax;
+    background-position-x: 0rem;
+    background-position-y: -16rem;
 }
 .font {
   font-size: 50px;
@@ -62,11 +63,11 @@ margin-left: 10px;
     }
   }
   #project {
-    background-color: #f3f4f5;
+    background-color: whitesmoke;
     
   }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   *{
     padding: 0;
     margin: 0;
@@ -77,10 +78,10 @@ margin-left: 10px;
       margin: 0;
         margin-bottom: 20rem;
         font-family: 'Righteous', sans-serif;
-        background-image: url(./gambar/ganbar.png);
+        background-image: url(./gambar/backround.1.png);
         // background-position:  right;
         background-repeat: no-repeat;
-        position: relative;
+        // position: relative;
         bottom: 5x;
         background-size: 55vmax;
         background-position-x: -120px;
@@ -124,10 +125,11 @@ margin-left: 10px;
           .costum {
             background-image: url(./gambar/gambar7.png);
           background-repeat: no-repeat;
-          background-position-x: -20px;
+          background-position-x: -100px;
           background-position-y: 10px;
           background-size: cover;
-          height: 30rem;
+          height: 35rem;
+        
           }
           .logo {
             height: 80pt;
@@ -136,10 +138,11 @@ margin-left: 10px;
           .font {
             font-size: 20px;
             padding-left: 25px;
+            
           
           }
           .position {
-            margin-top: 3rem;
+            margin-top: 1rem;
           }
 
           svg {
@@ -151,9 +154,15 @@ margin-left: 10px;
        
           #project {
             position: relative;
-            background-color: #f3f4f5;
+            background-color: whitesmoke;
             top: -88px;
             
           }
-          
+          .col-2 {
+            margin-top: -35px;
+          }
+          .text {
+            font-family: 'EB Garamond', serif;
+            font-weight: 900;
+          }
 }
